@@ -19,3 +19,6 @@
     - utiliza o comando "exec".
     - docker container exec -ti "CONTAINER ID" "COMANDO"
     - docker container exec -ti fa89ef9887535 bash
+
+Obs: docker container ```exec``` -ti fa89ef9887535 ```bash```
+
