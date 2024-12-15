@@ -1,0 +1,16 @@
+# Add user on Sudo Group
+$usermod -aG sudo lenovo
+
+# Install docker
+$apt install docker.io
+
+# Install podman
+$apt install podman
+
+# Add user into Docker Group
+$usermod -aG docker lenovo
+
+# Install docker-compose
+
+# Install podman-compose
+
