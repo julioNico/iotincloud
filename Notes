@@ -14,3 +14,10 @@ $usermod -aG docker lenovo
 
 # Install podman-compose
 
+# Build images and compose
+$docker-compose build
+
+# Running the project
+$docker-compose up -d
+
+
