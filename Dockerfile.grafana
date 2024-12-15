@@ -1,0 +1,11 @@
+# Base oficial do Grafana
+FROM grafana/grafana:latest
+
+# Cria um diretório para os dados do Grafana
+VOLUME /var/lib/grafana
+
+# Porta padrão do Grafana
+EXPOSE 3000
+
+# Comando padrão para iniciar o Grafana
+CMD ["/run.sh"]

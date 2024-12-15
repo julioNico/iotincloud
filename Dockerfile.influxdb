@@ -1,0 +1,11 @@
+# Base oficial do InfluxDB
+FROM influxdb:latest
+
+# Cria um diretório para os dados do InfluxDB
+VOLUME /var/lib/influxdb
+
+# Porta padrão do InfluxDB
+EXPOSE 8086
+
+# Comando padrão para iniciar o InfluxDB
+CMD ["influxd"]
